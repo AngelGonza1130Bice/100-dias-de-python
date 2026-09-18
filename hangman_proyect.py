@@ -19,17 +19,17 @@ print(placeholder)
 
 # pregunta qué letra se adivina
 
-while guess != letter:
+guess = ""
+
+while True:
     guess = input("Guess a letter: ").lower()
 
-# verifica si la letra se encuentra en la palabra
     display = ""
 
     for letter in chosen_word:
-    if letter == guess:
-        display += letter
-    else:
-        display += "_"
+        if letter == guess:
+            display += letter
+        else:
+            display += "_"
 
-# muestra el resultado
-print(display)
+    print(display)
