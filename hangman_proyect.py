@@ -8,7 +8,7 @@ chosen_word = random.choice(lista_palabras)
 word_length = len(chosen_word)
 
 # imprime la palabra aleatoria
-#print(chosen_word)
+print(chosen_word)
 
 # crea los "_"
 placeholder = ""
